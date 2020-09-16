@@ -36,7 +36,7 @@ namespace Pregunta1.Models
 
         [Display(Name = "Feliz Cumpleaños")]
         [DisplayFormat(DataFormatString = "{0:dd.MM.yyyy}")]
-        [DataType(DataType.Date]
+        [DataType(DataType.Date)]
         public DateTime Birthdate { get; set; }
         
     }
